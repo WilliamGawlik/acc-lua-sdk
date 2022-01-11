@@ -76,8 +76,8 @@ Optional callbacks triggered at different points of AC loop, in case app would n
 
 ```ini
 [SIM_CALLBACKS]
-UPDATE = fn        ; if set, function `script.fn()` will be called right after simulation entities stopped updating
-FRAME_BEGIN = fn   ; if set, will be called right before scene has started rendering
+FRAME_BEGIN = fn   ; if set, will be called right before scene has started rendering (can be used to move camera around)
+UPDATE = fn        ; if set, function `script.fn()` will be called after a whole simulation update
 ```
 
 ### Render callbacks
