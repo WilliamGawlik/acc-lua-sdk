@@ -1,4 +1,4 @@
-Since CSP 0.1.76, it’s possible to create apps using Lua.
+Since CSP 0.1.76, it’s possible to create apps using Lua v5.1, LuaJIT 2.1.0-beta3.
 
 # Hello World app
 
