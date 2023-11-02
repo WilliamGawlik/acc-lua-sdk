@@ -113,3 +113,7 @@ Features:
 - Example of Real Mirrors editor;
 - Example of OS integration: running new processes, use of file dialogs;
 - Console integration: adds new command `eval`, prints out things to console.
+
+# Other Resources
+
+https://github.com/CheesyManiac/cheesy-lua/wiki/Getting-Started-with-CSP-Lua-Scripting 
