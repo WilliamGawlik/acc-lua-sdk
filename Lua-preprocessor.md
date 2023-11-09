@@ -1,6 +1,6 @@
 When loading Lua scripts, CSP also precompiles them, slowing down first launch, but making subsequent launches faster (that’s what all those files in “AssettoCorsa\cache\lua” are for).
 
-But during that step there is another thing CSP does: it runs a simplest preprocessor which can help with performance. It doesn’t add any syntax sugar or anything, but if you want squeeze extra bit of performance out of your scripts, it might help.
+But during that step there is another thing CSP does since v0.1.80-preview400: it runs a simplest preprocessor which can help with performance. It doesn’t add any syntax sugar or anything, but if you want squeeze extra bit of performance out of your scripts, it might help.
 
 *Currently, preprocessor only runs on Lua scripts starting with `---@ext` or `---@ext:verbose`, with latter one CSP will also print the final code in its log file. Alternatively, set `FORCE_LUA_PREPROCESSOR=1` in “extension/config/general.ini” and it’ll run everywhere. Once we can be sure it won’t mess up everything, it’ll be enabled everywhere by default.*
 
